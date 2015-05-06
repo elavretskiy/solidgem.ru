@@ -1,0 +1,23 @@
+<%= form_tag fact_path, method: :get, remote: true do %>
+  <%= label_tag 'Факториал числа n = ' %>
+  <%= label_tag '', nil, id: 'fact' %><br />
+  <%= text_field_tag :number, nil, class: 'form-control', required: true,
+                     autofocus: true, type: 'number', min: 1 %>
+  <%= submit_tag 'Вычислить', class: 'btn btn-default' %>
+<% end %><br />
+
+<%= form_tag balance_path, method: :get, remote: true do %>
+  <%= label_tag 'Балансировка строки: ' %>
+  <%= label_tag '', nil, id: 'balance' %><br />
+  <%= text_field_tag :string, nil, class: 'form-control', required: true,
+                     autofocus: true %>
+  <%= submit_tag 'Проверить', class: 'btn btn-default' %>
+<% end %><br />
+
+<%= form_tag find_numbers_path, method: :get, remote: true do %>
+  <%= label_tag 'Пропущенные числа: ' %>
+  <%= label_tag '', nil, id: 'skip_numbers' %><br />
+  <%= text_area_tag :string, nil, class: 'form-control', required: true,
+                     autofocus: true %>
+  <%= submit_tag 'Найти', class: 'btn btn-default' %>
+<% end %>
