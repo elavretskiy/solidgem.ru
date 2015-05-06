@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://ancient-brook-7320.herokuapp.com/
 
-Things you may want to cover:
+Задачи
+Эти задачи можно решить на любом языке программирования, включая псевдокод.
+Решение нужно оформить в виде github репозитория, где одна задача - один файл.
 
-* Ruby version
+Z1
+Написать функцию, которая рекурсивно вычисляет факториал. fact(3) => 6
 
-* System dependencies
+Z2
+Есть строка из скобочек типа ((()())()).
+Скобочки в этой строке должны быть сбалансированы,
+то есть приведенная ранее строка является допустимой,
+а строка ((()()) или, скажем, ()))(( такими не являются.
+В первом случае даже не равно количество открывающих и закрывающих скобок.
+Во втором случае оно равно, но второй и третей закрывающей скобке не
+соответствует ни одной открывающей. Требуется написать функцию,
+которая для заданной строки говорит, является она валидной или невалидной.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Z3
+У вас есть огромный массив целых чисел. Все числа идут последовательно от 1 до k.
+Но в массиве пропущены 2 числа. Например: [1, 2, 4, 5, 7, 8].
+Реализуйте алгоритм для нахождения этих чисел с минимальным использованием памяти
+и с максимальным быстродействием.
