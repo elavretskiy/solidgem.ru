@@ -1,5 +1,5 @@
 == Heroku
-https://ancient-brook-7320.herokuapp.com/
+https://ancient-brook-7320.herokuapp.com
 
 == Задача № 1
 Написать функцию, которая рекурсивно вычисляет факториал (fact(3) => 6).
